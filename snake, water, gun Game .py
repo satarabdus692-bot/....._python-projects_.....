@@ -1,4 +1,4 @@
-# snake, water, gun solution
+# snake, water, gun Game
 import random
 import msvcrt  # For Windows (works on Windows only)
 import sys
