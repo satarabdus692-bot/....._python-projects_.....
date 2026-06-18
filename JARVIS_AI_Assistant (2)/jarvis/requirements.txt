@@ -1,0 +1,37 @@
+# ─── JARVIS AI Assistant — Requirements ───────────────────────────────────────
+# Install with:  pip install -r requirements.txt
+
+# ── Core / always needed ──────────────────────────────────────────────────────
+requests>=2.31.0           # HTTP requests (weather, drive fallback, downloads)
+
+# ── Voice ────────────────────────────────────────────────────────────────────
+pyttsx3>=2.90              # Offline text-to-speech (no API key needed)
+SpeechRecognition>=3.10.0  # Speech-to-text via Google Web Speech API
+pyaudio>=0.2.13            # Microphone input backend for SpeechRecognition
+                           # Windows: pip install pipwin && pipwin install pyaudio
+                           # Linux:   sudo apt install portaudio19-dev python3-pyaudio
+                           # macOS:   brew install portaudio && pip install pyaudio
+
+# ── Download ──────────────────────────────────────────────────────────────────
+yt-dlp>=2024.1.1           # YouTube + 1000+ sites (replaces youtube-dl)
+pytube>=15.0.0             # Fallback YouTube downloader
+instaloader>=4.10.3        # Instagram fallback downloader
+gdown>=5.1.0               # Google Drive downloader
+
+# ── Search & Info ─────────────────────────────────────────────────────────────
+googlesearch-python>=1.2.3 # Terminal web search results
+wikipedia>=1.4.0           # Wikipedia summaries
+feedparser>=6.0.10         # RSS news feeds (BBC, Reuters, CNN)
+
+# ── System / Utilities ───────────────────────────────────────────────────────
+pyautogui>=0.9.54          # Screenshots
+Pillow>=10.0.0             # Image handling (screenshots, etc.)
+colorama>=0.4.6            # Windows ANSI color support
+
+# ── Windows-only (volume control) ─────────────────────────────────────────────
+# pycaw>=20230407           # Uncomment on Windows: pip install pycaw
+# comtypes>=1.3.1           # Required by pycaw
+
+# ── Optional extras ───────────────────────────────────────────────────────────
+# python-dotenv>=1.0.0      # For .env API key management
+# newsapi-python>=0.2.7     # Richer news (requires free API key at newsapi.org)
