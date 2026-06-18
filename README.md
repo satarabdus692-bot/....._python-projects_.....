@@ -1,47 +1,34 @@
+# 🚀 My Python Projects Portfolio
 
-# 🐍💧🔫 Snake Water Gun
+Welcome to my personal collection of Python projects! This repository serves as a showcase for everything from interactive terminal games to advanced automation tools and AI assistants built after completing my Python programming foundations.
 
-A terminal-based Python game — the classic South Asian hand game (similar to Rock Paper Scissors).
+---
 
-## Rules
+## 📂 Project Dashboard
 
-| You       | Computer  | Winner   |
-|-----------|-----------|----------|
-| Snake 🐍  | Water 💧  | Snake    |
-| Water 💧  | Gun 🔫    | Water    |
-| Gun 🔫    | Snake 🐍  | Gun      |
-| Same      | Same      | Tie      |
+| # | Project Name | Description | Key Modules / Tech | Status |
+|:-:|:---|:---|:---|:---|
+| 1 | [🐍💧🔫 Snake Water Gun](#-snake-water-gun) | Classic South Asian hand game with cross-platform input loops. | `msvcrt`, `random` |  Completed |
+| 2 | [🤖 JARVIS v2.0](#-jarvis-v20) | Voice-controlled automation system & web downloader. | `SpeechRecognition`, `yt-dlp`, `Google API` | Completed |
+| 3 | 🧪 *More Coming Soon...* | Upcoming automation script or web scraper. | *TBD* | 📅 Planned |
 
-## How to Run
+---
 
+## 🐍💧🔫 Snake Water Gun
+
+A terminal-based Python implementation of the classic South Asian hand game (similar to Rock Paper Scissors).
+
+### 📜 Game Rules
+
+| You | Computer | Winner |
+| :--- | :--- | :--- |
+| **Snake 🐍** | Water 💧 | **Snake** (Drinks water) |
+| **Water 💧** | Gun 🔫 | **Water** (Drowns gun) |
+| **Gun 🔫** | Snake 🐍 | **Gun** (Shoots snake) |
+| *Same* | *Same* | **Tie 🤝** |
+
+### 🛠️ Execution & Controls
+
+To launch the game, run the following in your terminal:
 ```bash
-python snake_water_gun.py
-```
-
-**On Windows** — press `S`, `W`, or `G` instantly (no Enter needed).  
-**On Mac/Linux** — type `1`, `2`, or `3` and press Enter.
-
-## Controls
-
-| Key | Choice   |
-|-----|----------|
-| S   | Snake 🐍 |
-| W   | Water 💧 |
-| G   | Gun 🔫   |
-| Q   | Quit     |
-
-## Requirements
-
-- Python 3.x
-- No external libraries needed (`msvcrt` is built into Windows)
-
-## Features
-
-- Cross-platform support (Windows + Mac/Linux)
-- Instant keypress detection on Windows
-- Round-by-round scoring
-- Final result with total score
-
-## License
-
-MIT License — free to use and modify.
+python snake_water_gun/main.py
