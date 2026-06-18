@@ -14,21 +14,4 @@ Welcome to my personal collection of Python projects! This repository serves as 
 
 ---
 
-## 🐍💧🔫 Snake Water Gun
 
-A terminal-based Python implementation of the classic South Asian hand game (similar to Rock Paper Scissors).
-
-### 📜 Game Rules
-
-| You | Computer | Winner |
-| :--- | :--- | :--- |
-| **Snake 🐍** | Water 💧 | **Snake** (Drinks water) |
-| **Water 💧** | Gun 🔫 | **Water** (Drowns gun) |
-| **Gun 🔫** | Snake 🐍 | **Gun** (Shoots snake) |
-| *Same* | *Same* | **Tie 🤝** |
-
-### 🛠️ Execution & Controls
-
-To launch the game, run the following in your terminal:
-```bash
-python snake_water_gun/main.py
