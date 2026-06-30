@@ -10,8 +10,8 @@ Voice control · Wake word · Live weather & news · Translation · Free key-les
 [![Python](https://img.shields.io/badge/python-3.x-yellow.svg)]()
 [![No Build Step](https://img.shields.io/badge/build-none%20required-brightgreen.svg)]()
 
-<img src="<img width="2880" height="1800" alt="Capture11" src="https://github.com/user-attachments/assets/571935a9-d4dd-4467-9081-d26c32672de3" />
-" alt="JARVIS interface preview" width="100%">
+<img width="2880" height="1800" alt="Capture11" src="https://github.com/user-attachments/assets/571935a9-d4dd-4467-9081-d26c32672de3" />
+
 
 </div>
 
