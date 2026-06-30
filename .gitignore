@@ -1,0 +1,19 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Env / secrets (just in case — keys should live in sessionStorage, not files)
+.env
+*.key
